@@ -8,6 +8,9 @@ header {
   margin-left: 10%;
   margin-top: 55px;
 }
+section {
+  margin-top: 120px;
+}
 .col-1 {
   width: 50%;
 }
@@ -24,7 +27,7 @@ header {
   color: tomato;
 }
 .cmn-btn {
-  background-image: linear-gradient(tomato, orange);
+  background-image: linear-gradient(orange, tomato);
   color: #fff;
   padding: 10px 30px;
   text-decoration: none;
@@ -33,9 +36,7 @@ header {
 }
 
 /* My mIssion */
-.container {
-  margin-top: 150px;
-}
+
 .titel {
   text-align: center;
   font-weight: 800;
@@ -62,4 +63,38 @@ header {
 }
 .col-3 p {
   padding-left: 10px;
+}
+
+/* Develop */
+
+.container {
+  display: flex;
+  margin-right: 20px;
+  margin-left: 40px;
+  background-image: url(images/shapes/shape-4.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.col-2 {
+  width: 50%;
+  margin-left: 20px;
+}
+.col-2 img {
+  width: 80%;
+}
+h2 {
+  font-size: 35px;
+}
+
+.second-banner {
+  background-position: right;
+}
+.know-commty {
+  margin-left: 20px;
+}
+
+/* Contact */
+
+.contacts {
+  display: flex;
 }
