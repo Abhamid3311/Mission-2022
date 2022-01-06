@@ -20,7 +20,7 @@ section {
   line-height: 45px;
 }
 .left-side-border {
-  border-left: 7px solid;
+  border-left: 3px solid;
   border-image: linear-gradient(orange, tomato);
   border-image-slice: 1;
   padding-left: 10px;
